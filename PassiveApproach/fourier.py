@@ -28,7 +28,7 @@ def frequencia_dominante(arquivo_audio):
     return frequencia_dominante, frequencias, magnitudes
 
 # Exemplo de uso com um arquivo de áudio
-arquivo_audio = 'seu_arquivo_audio.wav'  # Substitua pelo caminho do seu arquivo WAV
+arquivo_audio = 'utils/audio.wav'  # Substitua pelo caminho do seu arquivo WAV
 frequencia, frequencias, magnitudes = frequencia_dominante(arquivo_audio)
 
 # Exibir a frequência dominante

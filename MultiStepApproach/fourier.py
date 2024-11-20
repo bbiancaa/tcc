@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import librosa
 
 # Carregar o arquivo de áudio
-audio_path = 'seu_arquivo_audio.wav'
+audio_path = 'utils/audio.wav'
 y, sr = librosa.load(audio_path, sr=None)
 
 # Aplicar FFT

@@ -41,7 +41,7 @@ def analisar_audio(audio_path):
     plt.show()
 
 # Caminho do arquivo de áudio (substitua pelo seu arquivo de áudio)
-audio_path = 'seu_arquivo_de_audio.wav'
+audio_path = 'utils/audio.wav'
 
 # Analisar o áudio
 analisar_audio(audio_path)

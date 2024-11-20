@@ -45,7 +45,7 @@ def analisar_audio(filtro_arquivo):
     print(f"A frequência dominante é: {freq_dominante:.2f} Hz")
 
 # Caminho para o arquivo de áudio
-arquivo_audio = "seu_arquivo_audio.wav"
+arquivo_audio = "utils/audio.wav"
 
 # Analisar o áudio e mostrar a frequência dominante
 analisar_audio(arquivo_audio)
